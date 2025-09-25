@@ -16,6 +16,11 @@ const floatingLogos = [
     className: "-right-4 top-12",
   },
   {
+    src: "/assets/img/java.webp",
+    alt: "Java logo",
+    className: "left-22 -top-6",
+  },
+  {
     src: "/assets/img/go.webp",
     alt: "Go logo",
     className: "-left-8 bottom-10",
@@ -34,7 +39,7 @@ export function Hero() {
       className="relative overflow-hidden bg-hero-gradient pb-20 pt-12 sm:pt-16"
     >
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(30,64,175,0.35),_transparent_55%)]" />
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 lg:grid-cols-[1.2fr_1fr] lg:px-8">
+      <div className="mx-auto grid w-full max-w-[76rem] items-center gap-12 px-6 lg:grid-cols-[1.2fr_1fr] lg:px-8">
         <div className="space-y-6">
           <p className="text-sm font-semibold uppercase tracking-widest text-cyan-300/80">
             Welcome to My Portfolio
@@ -54,13 +59,16 @@ export function Hero() {
             front-end design to back-end development.
           </p>
           <div className="flex flex-wrap items-center gap-4">
-            <Button asChild>
+            <Button
+              asChild
+              className="bg-gradient-to-r from-indigo-600 via-sky-600 to-cyan-500 text-white shadow-[0_0_15px_rgba(8,145,178,0.35)] hover:shadow-[0_0_25px_rgba(8,145,178,0.45)]"
+            >
               <Link href="#about" className="inline-flex items-center gap-2">
                 About Me
                 <UserRound className="h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="secondary">
+            <Button asChild variant="link" className="hover:bg-transparent">
               <Link
                 href="/assets/pdf/mesach-harmasendro-cv.pdf"
                 target="_blank"

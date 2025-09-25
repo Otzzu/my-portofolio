@@ -8,10 +8,9 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: "#hero", label: "Home" },
-  { href: "#about", label: "About Me" },
-  { href: "#tools", label: "Tools & Tech" },
-  { href: "#projects", label: "Projects" },
+  { href: "/", label: "Home" },
+  { href: "/experience", label: "Experience" },
+  { href: "/projects", label: "Projects" },
 ];
 
 export function Header() {
@@ -22,9 +21,9 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-slate-900/60 bg-slate-950/80 backdrop-blur">
-      <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+      <nav className="mx-auto flex w-full max-w-[76rem] items-center justify-between px-6 py-4 lg:px-8">
         <Link
-          href="#hero"
+          href="/"
           className="bg-gradient-to-br from-indigo-500 via-sky-400 to-cyan-300 bg-clip-text text-2xl font-semibold text-transparent"
         >
           MCH.

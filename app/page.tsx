@@ -9,7 +9,7 @@ export default function HomePage() {
       <Hero />
       <About />
       <Tools />
-      <Projects />
+      <Projects limit={3} showViewAll />
     </div>
   );
 }

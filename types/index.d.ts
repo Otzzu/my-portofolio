@@ -1,15 +1,9 @@
-type Skill = {
-  name: string;
-  level: number;
-};
-
-
-
 type Experience = {
   role: string;
   company: string;
   period: string;
-  description: string;
+  descriptionShort: string;
+  descriptionLong: string;
   logo: string;
 };
 
@@ -24,4 +18,5 @@ type Project = {
   tags: string[];
   image: string;
   href: string;
+  context?: string;
 };
