@@ -70,7 +70,7 @@ export function Hero() {
             </Button>
             <Button asChild variant="link" className="hover:bg-transparent">
               <Link
-                href="/assets/pdf/mesach-harmasendro-cv.pdf"
+                href="https://drive.google.com/file/d/1mkoWF09Ft_iAkMArBOacqD9jBx4rReMx/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2"
