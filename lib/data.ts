@@ -80,6 +80,32 @@ export const tools: Tool[] = [
 
 export const projects: Project[] = [
   {
+    title: "CarbonLedgerID",
+    description:
+      "CarbonLedgerID is a decentralized carbon credit trading and compliance system built on Ethereum blockchain (PoA) to support Indonesia's carbon trading regulations under Presidential Regulation No. 98/2021. The platform implements two main carbon instruments: PTBAE tokens (ERC-20) representing emission quotas allocated by regulators, and SPE-GRK tokens (ERC-1155) representing emission reduction certificates from green projects.\n\nThe system features a complete compliance cycle including quota allocation, emission reporting with MRV Oracle verification, hybrid surrender mechanisms (PTBAE + SPE + stablecoin payments), and a Call Auction trading system for carbon markets. Built with gasless transactions (ERC-2771 meta-transactions), users can interact with smart contracts without holding ETH. The architecture includes 9 interconnected smart contracts, an Oracle Service for off-chain verification, IPFS for decentralized document storage, and a Next.js fullstack dashboard for both regulators and companies.",
+    tags: [
+      "TypeScript",
+      "Solidity",
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Shadcn UI",
+      "Prisma",
+      "PostgreSQL",
+      "Hardhat",
+      "Ethers.js",
+      "IPFS",
+      "Docker",
+      "Geth PoA",
+      "ERC-20",
+      "ERC-1155",
+      "ERC-2771",
+    ],
+    image: "",
+    href: "https://github.com/wegeh/Tugas-Besar-IF4035-Blockchain",
+    context: "University Project",
+  },
+  {
     title: "Asko",
     description:
       "Asko is a web-based investment tool designed to help users manage their investments effectively. The platform allows users to explore a wide range of listed stocks along with detailed financial data such as profits, debts, assets, and more—presented through interactive charts. Users can also create personalized stock watchlists and build investment portfolios to track their performance and returns.\n\nIn addition, Asko provides a scenario analysis feature that enables users to forecast potential company earnings, giving them deeper insights for investment decisions. The platform also includes an admin dashboard for managing listed stocks and maintaining the accuracy of financial data.",
