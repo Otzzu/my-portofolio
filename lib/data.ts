@@ -1,5 +1,35 @@
 export const experiences: Experience[] = [
   {
+    role: "Software Engineer Intern",
+    company: "Xendit",
+    period: "Feb 2026 - Present",
+    descriptionShort:
+      "Joined the Dispute team at Xendit to develop backend services for a new dispute feature using Golang, collaborating within a cross-functional team of engineers and PMs.",
+    descriptionLong:
+      "Joined the Dispute team at Xendit, a cross-functional team of 4–5 people consisting of 3 engineers and 1–2 product managers. Contributed to backend development for a new dispute feature in Xendit's platform, building and maintaining services using Golang.",
+    logo: "/assets/img/logo-xendit.webp",
+  },
+  {
+    role: "Software Engineer Intern",
+    company: "GDP Labs",
+    period: "Jan 2026 - Mar 2026",
+    descriptionShort:
+      "Conducted research on integrating Langflow into GL Chat, focusing on authentication integration and using Langflow as a headless no-code canvas for GDP Labs' internal AI agent framework.",
+    descriptionLong:
+      "Worked in a hybrid setup, conducting in-depth research on integrating Langflow into GL Chat, one of the applications developed by GDP Labs. The research covered two main areas: first, how to integrate Langflow's authentication system with GL Chat to enable secure and seamless access; second, how to leverage Langflow as a headless canvas so that GDP Labs' proprietary AI agent framework could be embedded into Langflow, allowing users to visually build and orchestrate AI agents in a no-code environment without leaving the platform.",
+    logo: "/assets/img/logo-gdp-labs.webp",
+  },
+  {
+    role: "Software Engineer Intern",
+    company: "Velogo AI",
+    period: "Dec 2025 - Jan 2026",
+    descriptionShort:
+      "Contributed to Veflow, an AI no-code platform for running AI agents, working remotely on frontend development with Next.js and backend support with Python FastAPI.",
+    descriptionLong:
+      "Worked remotely within a team of 4, consisting of 3 engineers and 1 UI/UX designer. Contributed to the development of Veflow, an AI no-code platform designed to help businesses run their AI agents easily. Primarily focused on frontend development using Next.js, while also assisting with backend development using Python and FastAPI.",
+    logo: "/assets/img/logo-velogo-ai.webp",
+  },
+  {
     role: "Software Engineering Intern",
     company: "Crayon OCBC",
     period: "Jul 2025 - Sep 2025",
