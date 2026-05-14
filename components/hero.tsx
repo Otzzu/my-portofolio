@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight, UserRound } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { CV_URL } from "@/lib/data";
 
 const floatingLogos = [
   {
@@ -70,7 +71,7 @@ export function Hero() {
             </Button>
             <Button asChild variant="link" className="hover:bg-transparent">
               <Link
-                href="https://drive.google.com/file/d/1mkoWF09Ft_iAkMArBOacqD9jBx4rReMx/view?usp=sharing"
+                href={CV_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2"

@@ -1,3 +1,6 @@
+export const CV_URL =
+  "https://drive.google.com/file/d/1GY6QSgVU3B23EIezl9ypnmKHc40PJJQx/view?usp=sharing";
+
 export const experiences: Experience[] = [
   {
     role: "Software Engineer Intern",
